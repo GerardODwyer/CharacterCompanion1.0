@@ -75,7 +75,7 @@ export default {
     },
     deleteCharacter: function (id) {
       this.$swal({
-        title: 'Are you totaly sure?',
+        title: 'Are you totally sure?',
         text: 'You can\'t Undo this action',
         type: 'warning',
         showCancelButton: true,
@@ -92,7 +92,7 @@ export default {
               this.charactername = response.data
               console.log(this.charactername)
               this.loadCharacters()
-              // Vue.nextTick(() => this.$refs.vuetable.refresh())
+              Vue.nextTick(() => this.$refs.vuetable.refresh()) //
               this.$swal('Deleted', 'You successfully deleted this Character ' + JSON.stringify(response.data, null, 5), 'success')
             })
             .catch(error => {

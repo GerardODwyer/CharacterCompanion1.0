@@ -19,7 +19,7 @@ import CharacterForm from '@/components/CharacterForm'
 export default {
   data () {
     return {
-      character: {paymenttype: 'Direct', level: 0.0, charactername: ''},
+      character: {upvotes: 0, level: 0, charactername: ''},
       messagetitle: ' Make Character '
     }
   },
