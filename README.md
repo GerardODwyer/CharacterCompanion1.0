@@ -49,6 +49,13 @@ a web app to help users with organizing their characters and weapons for tableto
 * delete weapons
 * edit weapons
 
+
+* it will also contain data on Armour
+
+* upvote armour
+* delete arrmour
+* edit armour
+
 ### TODO ###
 
 * Add more variables to the Weapons model
